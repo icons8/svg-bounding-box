@@ -9,6 +9,14 @@
   "bin": {
     "svg-bounding-box": "./bin/caster.js"
   },
+  "tags": [
+    "svg",
+    "bbox",
+    "bounding box",
+    "svg box",
+    "view box",
+    "viewBox"
+  ],
   "dependencies": {
     "svg-path-bounding-box": "^1.0.4",
     "svg-simplify": "^0.3.0",
