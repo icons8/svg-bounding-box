@@ -13,7 +13,7 @@ describe('svg-path-bounding-box', function () {
     )
       .should
       .finally
-      .containDeep({ maxX: 22.808, maxY: 13.76, minX: -2.21, minY: -13.0185 });
+      .containDeep({ maxX: 22.808, maxY: 13.76, minX: -2.21, minY: -13.0185, width: 25.018, height: 26.7785 });
 
     // width 25,018 height 26,7785
 

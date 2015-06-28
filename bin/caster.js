@@ -14,7 +14,7 @@ if (['-h', '--help'].indexOf(process.argv[2]) != -1) {
     execPath = '.' + Path.sep + execPath;
   }
 
-  process.stdout.write('Example: echo "<g transform=\\"scale(1.1,-1.2)\\"><ellipse rx=\\"1.1\\" ry=\\".1e2\\" /><path d=\\"M0,0 L10-10\\"/></g>" | ' + execPath + ' \n');
+  process.stdout.write('Example: echo "<svg><g transform=\\"scale(1.1,-1.2)\\"><ellipse rx=\\"1.1\\" ry=\\".1e2\\" /><path d=\\"M0,0 L10-10\\"/></g></svg>" | ' + execPath + ' \n');
   process.exit();
 }
 
